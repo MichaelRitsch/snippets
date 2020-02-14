@@ -1,3 +1,5 @@
+<?php
+
 /* Gibt die neuesten Posts */
 function get_newest_posts($post_id,$number_of_posts){
     $html = '';
