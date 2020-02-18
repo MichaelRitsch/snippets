@@ -6,10 +6,11 @@ Redirect 301 /alter-pfad/ http://www.domain.de/neuer-pfad/
 ```
 
 ### htaccess Redirect von www auf non-www
-
+```
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www\.domain\.de$ [NC]
 RewriteRule ^(.*)$ http://domain.de/$1 [L,R=301]
+```
 
 ### htaccess Redirect von non-www auf www
 
