@@ -2,14 +2,12 @@
 
 // Create a Category menue blog entries
 
-function get_term_menue($post_type = 'post', $taxonomy = 'category'){
+function get_term_menue($taxonomy = 'category'){
 	$html = '';
 	$terms = get_terms( array(
 		'taxonomy' => $taxonomy,
 		'hide_empty' => true,
 	));
-
-	//var_dump($_SERVER);
 
 	if(sizeof($terms)>0){
 		$html .= '<ul>';
