@@ -7,7 +7,8 @@
 brew install wp-cli
 ```
 
-3. über ~/ ins Homeverzeichnis wechsel und dort die Datei '.zshrc' anleigen falls sie nicht existiert.
+3.  Wenn ZSH: über ~/ ins Homeverzeichnis wechsel und dort die Datei '.zshrc' anleigen falls sie nicht existiert.
+    Wenn Bash: über ~/ ins Homeverzeichnis wechsel und dort die Datei '.bash_profile' anleigen falls sie nicht existiert.
 4. Dort folgenden Inhalt eintragen:
 
 ```
