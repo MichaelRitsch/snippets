@@ -27,7 +27,15 @@ code /Applications/MAMP/conf/apache/httpd.conf
 bzw.: vim /Applications/MAMP/conf/apache/httpd.conf
 ```
 
-Und hier 'virtual hosts' (ca #574) einkommentieren
+Und hier 'virtual hosts' (ca #574) einkommentieren.
+
+Und hier None auf All ändern:
+```
+<Directory />
+    Options Indexes FollowSymLinks
+    AllowOverride All
+</Directory>
+```
 
 ## Virtual hosts
 
