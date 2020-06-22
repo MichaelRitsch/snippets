@@ -44,3 +44,4 @@ DocumentRoot “/Users/ritschm/Documents/LocalWordpress/IncredibleWebsite”
 ServerName incredible.mulk
 </VirtualHost>
 ```
+### Anschließend den Server einmal NEU STARTEN.
